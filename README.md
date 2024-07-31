@@ -68,7 +68,8 @@ Some difficulties encountered during the creation of this project included findi
 
 The second dataset we found had fewer columns but was very large (820K rows * 9 columns), making it difficult to work with in Google Colab and Visual Studio. For the scope of this project, we found a third dataset with 2.6k rows and more than 100 columns, resulting in better R² and model accuracy.
 
-![Model Accuracy](path/to/accuracy/image.png)
+![image](https://github.com/user-attachments/assets/f5be3422-cdd2-453e-b21a-ebd7e7d30e90)
+
 
 This is why this dataset was chosen.
 
