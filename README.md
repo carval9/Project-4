@@ -15,6 +15,14 @@ The model is a train machine learning model, that for each iteration and for eac
   Google Colab
   Kaggle
   VisualStudio
+  Github
+#Data base tools  
+  SQL
+
+#Programming Languages
+ HTML
+ JAVA
+ Python
 
  #Libraries
 pandas
@@ -37,6 +45,8 @@ sklearn.pipeline import Pipeline
 forex_python.converter import CurrencyRates
 shap
 joblib
+
+ 
  #Steps
 
  1-Import Data
@@ -45,13 +55,10 @@ joblib
  4-Data Cleaning
  5-Exploratory Data Analysis
  6-Data Splitting
- 7-Model Training and evaluation
- 8-Linear Regression Model Slope and Intercept
- 9-Feature Importance Analysis
- 10-Advanced Model Training
- 11-Hyperparameter tuning
- 12-Cross-Validation
- 13-Making Predicitons on New Data
- 14-Model Persistence
- 15-Prediction Visu
+ 7-Advanced Model Training with Random Forest
+ 
+
+#Troubleshooting
+Step 1: Review Feature Importances
+ 
  
