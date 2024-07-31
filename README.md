@@ -1,64 +1,56 @@
-## Model to Predict Used Car prices
+# Model to Predict Used Car Prices
 
-#Motivation
-The idea of this project came with designing a model that could predict prices of used cars. This model may help customers know if they are buying a car to a rightful price. 
+## Motivation
+The inspiration for this project stems from the need to design a model capable of predicting the prices of used cars. This model can assist customers in determining if they are purchasing a car at a fair price.
 
-#Description
+## Description
+This model utilizes a dataset containing the following features: Price, Year, Mileage, Model, Brand, City, and State. The information is sourced from the United States. The model is trained on machine learning algorithms that iteratively learn with each new piece of data added. A web page with a map interface allows users to input model, year, state, and mileage to receive a price estimate.
 
-This model uses a dataset that contains: Price, Year, Mileage, Model, Brand, City, State. 
-Is information from the United States.
-In a page with a map you will be able to have a model, year, state mileage and have a price using this information. 
-The model is a train machine learning model, that for each iteration and for each new information added will learn. 
+## Construction of the Model
 
-#The Construction of the Model
-# Tools
-  Google Colab
-  Kaggle
-  VisualStudio
-  Github
-#Data base tools  
-  SQL
+### Tools
+- Google Colab
+- Kaggle
+- Visual Studio
+- GitHub
 
-#Programming Languages
- HTML
- JAVA
- Python
+### Database Tools
+- SQL
 
- #Libraries
-pandas
-numpy 
-matplotlib.pyplot 
-matplotlib.dates 
-sklearn.model_selection
-sklearn.linear_model
-sklearn.ensemble
-xgboost 
-sklearn.metrics
-sklearn.model_selection 
-sklearn.model_selection import cross_val_score
-sklearn.preprocessing import PolynomialFeatures
-sklearn.cluster import KMeans
-sklearn.preprocessing import StandardScaler
-sklearn.feature_selection import RFE
-sklearn.impute import SimpleImputer
-sklearn.pipeline import Pipeline
-forex_python.converter import CurrencyRates
-shap
-joblib
+### Programming Languages
+- HTML
+- Java
+- Python
 
- 
- #Steps
+### Libraries
+- pandas
+- numpy
+- matplotlib.pyplot
+- matplotlib.dates
+- sklearn.model_selection
+- sklearn.linear_model
+- sklearn.ensemble
+- xgboost
+- sklearn.metrics
+- sklearn.model_selection (cross-validation)
+- sklearn.preprocessing (PolynomialFeatures, StandardScaler)
+- sklearn.cluster (KMeans)
+- sklearn.feature_selection (RFE)
+- sklearn.impute (SimpleImputer)
+- sklearn.pipeline (Pipeline)
+- forex_python.converter (CurrencyRates)
+- shap
+- joblib
 
- 1-Import Data
- 2-Import Libraries and dependencies
- 3-Data Loading
- 4-Data Cleaning
- 5-Exploratory Data Analysis
- 6-Data Splitting
- 7-Advanced Model Training with Random Forest
- 
+## Steps
 
-#Troubleshooting
-Step 1: Review Feature Importances
- 
- 
+1. **Import Data**
+2. **Import Libraries and Dependencies**
+3. **Data Loading**
+4. **Data Cleaning**
+5. **Exploratory Data Analysis**
+6. **Data Splitting**
+7. **Advanced Model Training with Random Forest**
+
+## Troubleshooting
+- **Step 1:** Review Feature Importances
