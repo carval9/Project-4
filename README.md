@@ -53,35 +53,31 @@ This model utilizes a dataset containing the following features: Price, Year, Mi
 7. **Advanced Model Training with Random Forest**
 
 ## Troubleshooting
-- **Step 1:** Review Feature Importances
-- **Step 2:** Hyperparameter Tuning
-- **Step 3:** Data Normalization
+1. **Review Feature Importances**
+2. **Hyperparameter Tuning**
+3. **Data Normalization**
+
 ## Prediction
-**Price Prediction Example**
+### Price Prediction Example
 
 ## Usage Instructions
-Download all the files and place them in a Folder together with the same name adjust the directions to pull the Model, Java, Data and HTML with a local host so you can use the web page installed.
-Run in python and with a Browser navigate in the tool that is brought to you to know the price of the cars. 
+Download all the files and place them in a folder together with the same name. Adjust the directions to pull the model, Java, data, and HTML with a local host so you can use the web page installed. Run in Python and use a browser to navigate the tool that provides car price predictions.
 
+## Difficulties
+Some difficulties encountered during the creation of this project included finding a suitable dataset. Initially, we used a dataset from India that worked fine with logistic regression, but the random forest did not work well with linear regression. Due to the lack of knowledge of the Indian market, this dataset was deemed unsuitable.
 
-##Dificulties
+The second dataset we found had fewer columns but was very large (820K rows * 9 columns), making it difficult to work with in Google Colab and Visual Studio. For the scope of this project, we found a third dataset with 2.6k rows and more than 100 columns, resulting in better R² and model accuracy.
 
-Some of the difficulties encounter during the creatin of this project was finding a data set taht would work, that would be fit, First we started with a data set from India, that worked fined with the Log Regression and the random forest did not worked with Linear regression (non of the data sets that were used fit well to this model). When using this Data set we found that the FX transformation to understand better the value of a car was difficult and due to the lack of knowledge of the Indian market and understanding, this made clearly and unvaible data set. 
+![Model Accuracy](path/to/accuracy/image.png)
 
-The second data set we found was smaller in columns, but really big we are talking about 820K rows * 9 columns. which made it really hard to work with in Google colab and visual studio, for the scope of this project. Based on this we foun a 3rd data set with 2.6k Rows and more than 100 columns. which made it a much smaller data set, but with a great result in the R2 and the model accuracy as shown in the following image.  
+This is why this dataset was chosen.
 
-![image](https://github.com/user-attachments/assets/06f35ae2-4edb-4275-8761-068a8cbd85a8)
+## Database Information
+The dataset was obtained from the following page: [Kaggle Dataset](https://www.kaggle.com/datasets/tymekurban/new-cars-usa-202223-dataset). The dataset is free to use, run, and modify.
 
-This is why this data set was chosen. 
-
-## Database information
-
-Obtained from the following page "https://www.kaggle.com/datasets/tymekurban/new-cars-usa-202223-dataset" the data set is free to use and to run and modify a model. 
-
-## Authors 
-**Daniel Bardan** @Wynton0535
-**Rodrigo Figueroa** @RoFigueroa18
-**Pablo Morales** @PabloUMD
-**Carlos Valencia** @carval9
-**Jose Franco** @jrobertofg
-
+## Authors
+- **Daniel Bardan** (@Wynton0535)
+- **Rodrigo Figueroa** (@RoFigueroa18)
+- **Pablo Morales** (@PabloUMD)
+- **Carlos Valencia** (@carval9)
+- **Jose Franco** (@jrobertofg)
