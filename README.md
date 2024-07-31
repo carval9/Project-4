@@ -54,3 +54,7 @@ This model utilizes a dataset containing the following features: Price, Year, Mi
 
 ## Troubleshooting
 - **Step 1:** Review Feature Importances
+- **Step 2:** Hyperparameter Tuning
+- **Step 3:** Data Normalization
+## Prediction
+Price Prediction Example
