@@ -1,4 +1,4 @@
-# Model to Predict Used Car Prices
+# Toolto Predict Used Car Prices
 
 ## Motivation
 The inspiration for this project stems from the need to design a model capable of predicting the prices of used cars. This model can assist customers in determining if they are purchasing a car at a fair price.
@@ -57,4 +57,4 @@ This model utilizes a dataset containing the following features: Price, Year, Mi
 - **Step 2:** Hyperparameter Tuning
 - **Step 3:** Data Normalization
 ## Prediction
-Price Prediction Example
+**Price Prediction Example**
