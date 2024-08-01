@@ -25,40 +25,24 @@ This model utilizes a dataset containing the following features: Price, Year, Mi
 ### Libraries
 - pandas
 - numpy
-- matplotlib.pyplot
-- matplotlib.dates
-- sklearn.model_selection
-- sklearn.linear_model
-- sklearn.ensemble
-- xgboost
-- sklearn.metrics
-- sklearn.model_selection (cross-validation)
-- sklearn.preprocessing (PolynomialFeatures, StandardScaler)
-- sklearn.cluster (KMeans)
-- sklearn.feature_selection (RFE)
-- sklearn.impute (SimpleImputer)
-- sklearn.pipeline (Pipeline)
-- forex_python.converter (CurrencyRates)
-- shap
 - joblib
+- sklearn.model_selection (train_test_split)
+- sklearn.preprocessing (StandardScaler)
+- sklearn.ensemble (RandomForestRegressor, GradientBoostingRegressor, VotingRegressor)
+- xgboost (XGBRegressor)
+- sklearn.metrics (mean_absolute_error, mean_squared_error, r2_score)
+
 
 ## Steps
 
-1. **Import Data**
-2. **Import Libraries and Dependencies**
-3. **Data Loading**
-4. **Data Cleaning**
-5. **Exploratory Data Analysis**
-6. **Data Splitting**
-7. **Advanced Model Training with Random Forest**
+1. **Import Libraries and Data**
+2. **Data Loading and Cleaning**
+3. **Data Splitting**
+4. **Scaling Data**
+5. **Define and Train the Voting Regressor with Weighted Models**
+6. **Price Prediction Example**
+7. **Test Prediction with 3 Cars Over 5 Years**
 
-## Troubleshooting
-1. **Review Feature Importances**
-2. **Hyperparameter Tuning**
-3. **Data Normalization**
-
-## Prediction
-### Price Prediction Example
 
 ## Usage Instructions
 Download all the files and place them in a folder together with the same name. Adjust the directions to pull the model, Java, data, and HTML with a local host so you can use the web page installed. Run in Python and use a browser to navigate the tool that provides car price predictions.
@@ -77,7 +61,7 @@ This is why this dataset was chosen.
 The dataset was obtained from the following page: [Kaggle Dataset](https://www.kaggle.com/datasets/tymekurban/new-cars-usa-202223-dataset). The dataset is free to use, run, and modify.
 
 ## Authors
-- **Daniel Bardan** (@Wynton0535)
+- **Daniel Bardán** (@Wynton0535)
 - **Rodrigo Figueroa** (@RoFigueroa18)
 - **Pablo Morales** (@PabloUMD)
 - **Carlos Valencia** (@carval9)
